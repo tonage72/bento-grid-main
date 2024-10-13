@@ -152,6 +152,20 @@ main {
 .card:nth-child(5) {
 	background-color: var(--Purple-500);
 	grid-area: card-5;
+	text-align: center;
+
+	img {
+		width: 75cqi;
+		margin: 8cqi auto 12cqi auto;
+	}
+
+	p {
+		color: white;
+		text-wrap: balance;
+		font-size: 10cqi;
+		margin: 0 0 10cqi 0;
+		line-height: 9cqi;
+	}
 }
 
 .card:nth-child(6) {
