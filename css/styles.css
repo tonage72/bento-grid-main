@@ -116,6 +116,7 @@ main {
 		letter-spacing: -.3cqi;
 		line-height: 9cqi;
 		margin: 5cqi 4cqi 6cqi 4cqi;
+		text-wrap: balance;
 	}
 
 	img {
@@ -127,6 +128,25 @@ main {
 .card:nth-child(4) {
 	background-color: var(--Purple-100);
 	grid-area: card-4;
+	text-align: center;
+
+	p:nth-child(1) {
+		font-size: 7.5cqi;
+		font-weight: 500;
+		margin: 7cqi 4cqi 5cqi 4cqi;
+	}
+
+	img {
+		width: 90cqi;
+		margin: 0 auto 7cqi auto;
+	}
+
+	p:nth-child(3) {
+		font-size: 5.5cqi;
+		margin: 0 4cqi 9cqi 4cqi;
+		line-height: 6cqi;
+		text-wrap: pretty; 
+	}
 }
 
 .card:nth-child(5) {
