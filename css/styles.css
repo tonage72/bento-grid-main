@@ -35,7 +35,6 @@ img {
 
 main {
 	display: grid;
-	grid-template-columns: auto;
 	grid-template-areas:
 		"card-1"
 		"card-2"
@@ -226,5 +225,45 @@ main {
 	img {
 		width: 70cqi;
 		margin: 6cqi 0 6cqi 6cqi;
+	}
+}
+
+@media (width > 1200px) {
+
+	body {
+		height: 100svh;
+		display: grid;
+		justify-content: center;
+	}
+
+	main {
+		width: 80cqi;
+		padding: 0;
+		grid-template-columns: auto auto auto auto;
+		grid-template-rows: 23cqi 5cqi 10cqi 15cqi;
+		grid-template-areas:
+			"card-7 card-1 card-1 card-4"
+			"card-7 card-2 card-3 card-4"
+			"card-8 card-2 card-3 card-4"
+			"card-8 card-6 card-5 card-5";
+		gap: 2cqi;
+	}
+
+	.card:nth-child(5) {
+		display: flex;
+		flex-direction: row nowrap;
+		text-align: start;
+
+		img {
+			width: auto;
+			margin: 3cqi;
+		}
+
+		p {
+			align-self: end;
+			font-size: 8.3cqi;
+			line-height: 7cqi;
+
+		}
 	}
 }
