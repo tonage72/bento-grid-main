@@ -266,4 +266,22 @@ main {
 
 		}
 	}
+
+	.card:nth-child(1) {
+		
+		p:nth-child(1) {
+			font-size: 11.5cqi;
+			font-weight: 500;
+			line-height: 11cqi;
+			padding-bottom: 4cqi;
+		}
+
+		img {
+			width: 40cqi;
+		}
+
+		p:nth-child(3) {
+			font-size: 3.5cqi;
+		}
+	}
 }
