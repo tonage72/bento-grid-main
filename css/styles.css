@@ -24,6 +24,7 @@ html {
 }
 
 body {
+	overflow-x: hidden;
 	display: flex;
 	align-items: center;
 }
@@ -314,7 +315,7 @@ main {
 		img {
 			width: 150cqi;
 			margin: 0 -60cqi 0 auto;
-			clip-path: inset(0 60cqi 0 0);
+			clip-path: inset(0 59cqi 0 0);;
 		}
 
 		p:nth-child(3) {
@@ -335,12 +336,63 @@ main {
 			font-size: 14cqi;
 			line-height: 12cqi;
 			margin: 10cqi auto 10cqi 10cqi;
-			font-weight: 500;
+			font-weight: 500;;
 		}
 
 		img {
 			margin-left: 10cqi;
 			clip-path: inset(0 0 25.7cqi 0);
+			width: 80cqi;
+		}
+	}
+
+	.card:nth-child(5) {
+		p {
+			font-size: 8cqi;
+			line-height: 6.5cqi;
+		}
+	}
+
+	.card:nth-child(6) {
+		p:nth-child(1) {
+
+			span {
+				display: block;
+			}
+
+			span:nth-child(1) {
+				font-size: 25cqi;
+				margin-top: 15cqi;
+			}
+
+			span:nth-child(3) {
+				font-size: 7.5cqi;
+				margin-bottom: 9cqi;
+			}
+ 		}
+	}
+
+	.card:nth-child(2) {
+		p {
+			font-size: 15cqi;
+			line-height: 13cqi;
+		}
+	}
+
+	.card:nth-child(8) {
+
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: space-between;
+
+		p {
+			font-size: 15cqi;
+			line-height: 15cqi;
+			margin-right: 8cqi;
+		}
+
+		img {
+			align-self: center;
 			width: 80cqi;
 		}
 	}
